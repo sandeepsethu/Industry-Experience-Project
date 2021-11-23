@@ -28,17 +28,17 @@ Both the data of police stations and Community Legal Centres in Victoria were av
 
 Since web scraping isn't permitted, this data was manually updated into 2 csv files:
 
-* Police Stations: https://github.com/Mack-zhou/TA21/blob/main/IE/police%20stations.csv
+* Police Stations: https://github.com/sandeepsethu/Industry-Experience-Project/blob/main/Datasets/police%20stations.csv
 
-* Community Legal Centres: https://github.com/Mack-zhou/TA21/blob/main/IE/Community%20Legal%20Centres.csv
+* Community Legal Centres: https://github.com/sandeepsethu/Industry-Experience-Project/blob/main/Datasets/Community%20Legal%20Centres.csv
 
 The rest of the datasets were easily obtained:
 
-* Rental Data was downloadable as an Excel spreadsheet as seen at: https://github.com/Mack-zhou/TA21/blob/main/IE/Quarterly%20median%20rents%20by%20local%20government%20area%20-%20March%20Quarter%202021.xlsx
+* Rental Data was downloadable as an Excel spreadsheet as seen at: https://github.com/sandeepsethu/Industry-Experience-Project/blob/main/Datasets/Quarterly%20median%20rents%20by%20local%20government%20area%20-%20March%20Quarter%202021.xlsx
 
-* Crime Data per LGAs in Victoria was downloadable as an Excel spreadsheet as seen at: https://github.com/Mack-zhou/TA21/blob/main/IE/Data_Tables_LGA_Criminal_Incidents_Year_Ending_March_2021.xlsx
+* Crime Data per LGAs in Victoria was downloadable as an Excel spreadsheet as seen at: https://github.com/sandeepsethu/Industry-Experience-Project/blob/main/Datasets/Data_Tables_LGA_Criminal_Incidents_Year_Ending_March_2021.xlsx
 
-* Shapefile of Victoria was downloadable as a zipped shapefile. The unzipped folder is seen at: https://github.com/Mack-zhou/TA21/tree/main/IE/vic_lga_polygon_shp
+* Shapefile of Victoria was downloadable as a zipped shapefile. The unzipped folder is seen at: https://github.com/sandeepsethu/Industry-Experience-Project/tree/main/Datasets/vic_lga_polygon_shp
 
 
 ### DATA WRANGLING:

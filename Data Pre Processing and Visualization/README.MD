@@ -46,21 +46,21 @@ The rest of the datasets were easily obtained:
 Now that the data is collected, data wrangling could be performed. Data Wrangling was performed using RStudio. The corresponding files are included in the repository
 and explained below:
 
-* Wrangling Police Station Data - https://github.com/Mack-zhou/TA21/blob/main/IE/GeocodePoliceStations.R
+* Wrangling Police Station Data - https://github.com/sandeepsethu/Industry-Experience-Project/blob/main/Data%20Pre%20Processing%20and%20Visualization/GeocodePoliceStations.R
 
 In this file, duplicate entries are removed and address columns are merged to make one new column to help geocode the locations. Geocoding
 is performed using the geocode_OSM() function which makes use of the OpenStreetMap API to help geocode the addresses.
 
-The results are then written to a new CSV file: https://github.com/Mack-zhou/TA21/blob/main/IE/geocodedPS.csv
+The results are then written to a new CSV file: https://github.com/sandeepsethu/Industry-Experience-Project/blob/main/Data%20Pre%20Processing%20and%20Visualization/geocodedPS.csv
 
-* Wrangling Community Legal Centres Data - https://github.com/Mack-zhou/TA21/blob/main/IE/GeocodeCLC.R
+* Wrangling Community Legal Centres Data - https://github.com/sandeepsethu/Industry-Experience-Project/blob/main/Data%20Pre%20Processing%20and%20Visualization/GeocodeCLC.R
 
 In this file,the address columns is used to help geocode the locations. Geocoding is performed using the geocode_OSM() 
 function which makes use of the OpenStreetMap API to help geocode the addresses.
 
-The results are then written to a new CSV file: https://github.com/Mack-zhou/TA21/blob/main/IE/geocodedCLC.csv
+The results are then written to a new CSV file: https://github.com/sandeepsethu/Industry-Experience-Project/blob/main/Data%20Pre%20Processing%20and%20Visualization/geocodedCLC.csv
 
-* Wrangling Crime and Rent Data: https://github.com/Mack-zhou/TA21/blob/main/IE/Safety_Rent_Wrangling.R
+* Wrangling Crime and Rent Data: https://github.com/sandeepsethu/Industry-Experience-Project/blob/main/Data%20Pre%20Processing%20and%20Visualization/Safety_Rent_Wrangling.R
 
 Here, Crime Data is read in from the excel sheets and then filtered out by year. Only data for the past 3 years is considered for creating a safety metric.
 Danger ratings are assigned to both location types and offense types based on their relevance in the context of an international student in Australia.
@@ -110,12 +110,12 @@ Next the median rent data is read in from the excel sheet for both 1 bedroom and
 
 Only the latest data is considered, hence all the other columns are removed. The LGA names are changed to match those from the crime data. Then these dataframes are joined with the safety metric dataframe. Column names are changed for ease and to make it more legible and the LGA names are all changed to upper case to match the shape file data.
 
-The results are then written to a new CSV file: https://github.com/Mack-zhou/TA21/blob/main/IE/safetyrent.csv
+The results are then written to a new CSV file: https://github.com/sandeepsethu/Industry-Experience-Project/blob/main/Data%20Pre%20Processing%20and%20Visualization/safetyrent.csv
 
 
 ### Creating the RShiny Applications.
 
-#### Application 1 - The safety ratings map: https://github.com/Mack-zhou/TA21/blob/main/IE/safemap.R
+#### Application 1 - The safety ratings map: https://github.com/sandeepsethu/Industry-Experience-Project/blob/main/Data%20Pre%20Processing%20and%20Visualization/safemap.R
 
 RShiny is used to create this application. 
 
@@ -129,7 +129,7 @@ For an RShiny application to work and to include interactivity, we use both a UI
 
 Run the app to display the application.
 
-#### Application 2 - The services map: https://github.com/Mack-zhou/TA21/blob/main/IE/serviceapp.R
+#### Application 2 - The services map: https://github.com/sandeepsethu/Industry-Experience-Project/blob/main/Data%20Pre%20Processing%20and%20Visualization/serviceapp.R
 
 RShiny is used to create this application. 
 
@@ -147,8 +147,8 @@ Run the app to display the application.
 
 After the creation of the two Apps, they were then published on https://www.shinyapps.io/.
 
-* Safety ratings map: https://vicsafe.shinyapps.io/IEProject2/
-* Services map: https://vicsafe.shinyapps.io/IEProject/
+* Safety ratings map: https://vicsafe.shinyapps.io/safemap2/
+* Services map: https://vicsafe.shinyapps.io/servicedashboard/
 
 ### Plugins in the website
 
@@ -156,7 +156,7 @@ After publishing the apps, the RShiny applications were then incorporated into t
 
 ## Usage 
 
-Navigate to the main repository- https://github.com/Mack-zhou/TA21 - click on code and then Download Zip option
+Navigate to the main repository- https://github.com/sandeepsethu/Industry-Experience-Project - click on code and then Download Zip option
 
 ![record1](https://user-images.githubusercontent.com/89060866/130928869-1a087950-b9f2-47ee-a2b5-a0c3a7fe9f16.gif)
 
